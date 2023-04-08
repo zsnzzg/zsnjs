@@ -1,0 +1,14 @@
+#!name= 京东比价
+#!desc= 京豆比价转链
+#!author= 郑在镐
+
+#!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JD.png
+
+
+
+[Script]
+
+http-response ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) requires-body=1,script-path=^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item)
+
+[MITM]
+hostname = api.m.jd.com

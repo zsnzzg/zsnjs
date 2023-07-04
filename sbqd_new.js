@@ -5,6 +5,7 @@ const chavy = init()
 const signurlVal = chavy.getdata(signurlKey)
 const signheaderVal = chavy.getdata(signheaderKey)
 chavy.log(`cookieName:${cookieName}\n\nsignurlVal:${signurlVal}\n\nsignheaderVal: ${signheaderVal}\n\n`)
+sign()
 
 function sign() {
   const url = { url: signurlVal, headers: JSON.parse(signheaderVal) }

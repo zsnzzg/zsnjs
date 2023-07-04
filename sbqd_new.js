@@ -4,8 +4,7 @@ const signheaderKey = 'zsn_signheader_kqxt'
 const chavy = init()
 const signurlVal = chavy.getdata(signurlKey)
 const signheaderVal = chavy.getdata(signheaderKey)
-chavy.log(`${cookieName}, signheaderVal: ${signheaderVal}`)
-sign()
+chavy.log(`cookieName:${cookieName}\n\nsignurlVal:${signurlVal}\n\nsignheaderVal: ${signheaderVal}\n\n`)
 
 function sign() {
   const url = { url: signurlVal, headers: JSON.parse(signheaderVal) }

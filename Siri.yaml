@@ -1,0 +1,13 @@
+# NAME: AppleIntelligence
+# AUTHOR: 郑在镐
+# UPDATED: 2026-07-27 10:21:26
+# BEHAVIOR: classical
+# DOMAIN: 6
+
+payload:
+DOMAIN-SUFFIX,guzzoni.smoot.apple.com,US // Apple Intelligence
+DOMAIN,apple-relay.apple.com,US // Apple Intelligence
+DOMAIN,apple-relay.cloudflare.com,US // Apple Intelligence
+DOMAIN,apple-relay.fastly-edge.com,US // Apple Intelligence
+DOMAIN,gspe1-ssl.ls.apple.com,US // Apple Intelligence
+DOMAIN,apple-relay.apple.com,US // Apple Intelligence

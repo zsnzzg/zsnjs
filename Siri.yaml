@@ -5,9 +5,9 @@
 # DOMAIN: 6
 
 payload:
-DOMAIN-SUFFIX,guzzoni.smoot.apple.com,US // Apple Intelligence
-DOMAIN,apple-relay.apple.com,US // Apple Intelligence
-DOMAIN,apple-relay.cloudflare.com,US // Apple Intelligence
-DOMAIN,apple-relay.fastly-edge.com,US // Apple Intelligence
-DOMAIN,gspe1-ssl.ls.apple.com,US // Apple Intelligence
-DOMAIN,apple-relay.apple.com,US // Apple Intelligence
+- DOMAIN-SUFFIX,guzzoni.smoot.apple.com
+- DOMAIN,apple-relay.apple.com
+- DOMAIN,apple-relay.cloudflare.com
+- DOMAIN,apple-relay.fastly-edge.com
+- DOMAIN,gspe1-ssl.ls.apple.com
+- DOMAIN,apple-relay.apple.com
